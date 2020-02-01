@@ -6,7 +6,9 @@ resource "aws_instance" "web" {
   key_name = aws_key_pair.deployer.key_name 
   security_groups = ["allow_ssh"] 
 
-
+  lifecycle{ 
+    prevent_destroy = true 
+  } 
 
 
   tags = { 
