@@ -9,7 +9,7 @@ output "sec_group" {
 }
 
 output "key_name" {
-    value = aws_key_pair.deployer1.key_name 
+    value = aws_key_pair.deployer.key_name 
 
 }
 
