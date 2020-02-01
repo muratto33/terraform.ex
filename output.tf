@@ -30,3 +30,7 @@ output "wordpress_username" {
      output "IPs" {
     value = aws_instance.web.*.public_ip
      }
+
+     output "aws_instance_web" {
+    value = aws_instance_web.availability_zone
+     }
