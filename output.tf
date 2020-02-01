@@ -32,5 +32,5 @@ output "wordpress_username" {
      }
 
      output "aws_instance_web" {
-    value = aws_instance_web.availability_zone
+    value = aws_instance_web.*.availability_zone
      }
