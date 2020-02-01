@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-us-murat"
-    key    = "aws/iam/iam_state"
+    bucket = "backend-state-murat"
+    key    = "infrastructure"
     region = "us-east-1"
   }
 }
