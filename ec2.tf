@@ -17,5 +17,7 @@ resource "aws_instance" "web" {
 } 
 
 resource "aws_instance" "imported" {
+  key_name = aws_key_pair.deployer.key_name 
+  security_groups = ["allow_ssh"]
   # (resource arguments)
 }
