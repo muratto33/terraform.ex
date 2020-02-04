@@ -1,7 +1,7 @@
 variable "ami" {}
 variable "intance_type" {}
 
-variable "count" {
+variable "count_isnatnce" {
   
 }
 
