@@ -14,7 +14,7 @@ output "key_name" {
 }
 
 output "wordpress" {
-    value = aws_route53_record.www.name 
+    value = aws_route53_record.www.zone_id 
   
 
 }
