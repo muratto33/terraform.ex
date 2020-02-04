@@ -17,6 +17,7 @@ resource "aws_instance" "web" {
 } 
 resource "aws_instance" "imported" {
   ami = "ami-00068cd7555f543d5"
+  instance_type = "t2.micro" 
   key_name   = aws_key_pair.deployer.key_name 
   security_groups    = ["allow_ssh"]
 } 
