@@ -15,3 +15,7 @@ resource "aws_instance" "web" {
     Name = "HelloWorld${count.index +1}" 
   } 
 } 
+
+resource "aws_instance" "imported" {
+  # (resource arguments)
+}
