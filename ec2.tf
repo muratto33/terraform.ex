@@ -15,9 +15,7 @@ resource "aws_instance" "web" {
     Name = "HelloWorld${count.index +1}" 
   } 
 } 
-
-resource "aws_instance" "imported" {
-  key_name = aws_key_pair.deployer.key_name 
-  security_groups = ["allow_ssh"]
-  # (resource arguments)
-}
+ resource "aws_instance" "imported" {
+  key_name   = aws_key_pair.deployer.key_name 
+  security_groups    = ["allow_ssh"]
+} 
