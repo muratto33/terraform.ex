@@ -1,5 +1,5 @@
 environment = "dev" 
-s3_bucket = "wordpress-murat-2020-qa" #Will be used to set backend.tf 
+s3_bucket = "wordpress-murat-test-dev" #Will be used to set backend.tf 
 s3_folder_project = "vet" #Will be used to set backend.tf 
 s3_folder_region = "us-east-1" #Will be used to set backend.tf 
 s3_folder_type = "sharedtools" #Will be used to set backend.tf 
