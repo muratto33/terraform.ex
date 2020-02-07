@@ -1,5 +1,5 @@
 variable "name" {
-    default = "wordpress1"
+    default = "wordpress2"
 }
 variable "cidr" {}
 variable "azs1" {}
