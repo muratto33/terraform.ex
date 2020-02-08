@@ -44,7 +44,7 @@ resource "aws_instance" "tower" {
 
 
 resource "aws_route53_record" "tower" { 
-  zone_id = "Z1NSGWEPJFDNW" 
+  zone_id = "Z3Q6Y7MR318A1F" 
   name    = "tower" 
   type    = "A" 
   ttl     = "300" 
